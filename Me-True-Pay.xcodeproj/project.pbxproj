@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B0CFD182BD7C59A00407A68 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CFD172BD7C59A00407A68 /* HomeVC.swift */; };
+		6B0CFD1A2BD7CBFA00407A68 /* AcountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CFD192BD7CBFA00407A68 /* AcountVC.swift */; };
+		6B6B19B12BD81587004890D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B6B19B02BD81586004890D9 /* GoogleService-Info.plist */; };
+		6B7CA36C2BD1E81E00C1978B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA36B2BD1E81E00C1978B /* LoginVC.swift */; };
+		6B7CA36E2BD1E82D00C1978B /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA36D2BD1E82D00C1978B /* SignupVC.swift */; };
+		6B7CA3702BD1E83B00C1978B /* WallletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA36F2BD1E83B00C1978B /* WallletVC.swift */; };
+		6B7CA3722BD1F5F000C1978B /* TopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA3712BD1F5F000C1978B /* TopUpVC.swift */; };
+		6B7CA3742BD1F61200C1978B /* WithdrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA3732BD1F61200C1978B /* WithdrawVC.swift */; };
+		6B7CA37A2BD1F9DF00C1978B /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA3792BD1F9DF00C1978B /* PaymentCell.swift */; };
+		6B7CA37C2BD1FE8100C1978B /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA37B2BD1FE8100C1978B /* PaymentTableViewCell.swift */; };
+		6B7CA37E2BD20A7E00C1978B /* BlurredLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7CA37D2BD20A7E00C1978B /* BlurredLabel.swift */; };
+		6B9091B22C3B96F500A7CB44 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B9091B12C3B96F500A7CB44 /* Settings.bundle */; };
+		6BA95B562BD13AE900C2DC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA95B552BD13AE900C2DC88 /* AppDelegate.swift */; };
+		6BA95B582BD13AE900C2DC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA95B572BD13AE900C2DC88 /* SceneDelegate.swift */; };
+		6BA95B5A2BD13AE900C2DC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA95B592BD13AE900C2DC88 /* ViewController.swift */; };
+		6BA95B5D2BD13AE900C2DC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA95B5B2BD13AE900C2DC88 /* Main.storyboard */; };
+		6BA95B622BD13AEB00C2DC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA95B612BD13AEB00C2DC88 /* Assets.xcassets */; };
+		6BA95B652BD13AEB00C2DC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA95B632BD13AEB00C2DC88 /* LaunchScreen.storyboard */; };
+		6BD548A22BD2EC9500FE6867 /* recentActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD548A12BD2EC9500FE6867 /* recentActivityCell.swift */; };
+		6BD548A42BD2ED3B00FE6867 /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD548A32BD2ED3B00FE6867 /* OperationTableViewCell.swift */; };
+		6BD548A62BD4274D00FE6867 /* DepositDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD548A52BD4274D00FE6867 /* DepositDetailVC.swift */; };
+		6BEDAFDB2BD6AD3A007DCE01 /* WithdrawDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEDAFDA2BD6AD3A007DCE01 /* WithdrawDetailsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B0CFD172BD7C59A00407A68 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6B0CFD192BD7CBFA00407A68 /* AcountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountVC.swift; sourceTree = "<group>"; };
+		6B6B19B02BD81586004890D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B7CA36B2BD1E81E00C1978B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6B7CA36D2BD1E82D00C1978B /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		6B7CA36F2BD1E83B00C1978B /* WallletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallletVC.swift; sourceTree = "<group>"; };
+		6B7CA3712BD1F5F000C1978B /* TopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpVC.swift; sourceTree = "<group>"; };
+		6B7CA3732BD1F61200C1978B /* WithdrawVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawVC.swift; sourceTree = "<group>"; };
+		6B7CA3792BD1F9DF00C1978B /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		6B7CA37B2BD1FE8100C1978B /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		6B7CA37D2BD20A7E00C1978B /* BlurredLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredLabel.swift; sourceTree = "<group>"; };
+		6B9091B12C3B96F500A7CB44 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6BA95B522BD13AE900C2DC88 /* Me-True-Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Me-True-Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA95B552BD13AE900C2DC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BA95B572BD13AE900C2DC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BA95B592BD13AE900C2DC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BA95B5C2BD13AE900C2DC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BA95B612BD13AEB00C2DC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA95B642BD13AEB00C2DC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BA95B662BD13AEB00C2DC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD548A12BD2EC9500FE6867 /* recentActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentActivityCell.swift; sourceTree = "<group>"; };
+		6BD548A32BD2ED3B00FE6867 /* OperationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTableViewCell.swift; sourceTree = "<group>"; };
+		6BD548A52BD4274D00FE6867 /* DepositDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositDetailVC.swift; sourceTree = "<group>"; };
+		6BEDAFDA2BD6AD3A007DCE01 /* WithdrawDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawDetailsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BA95B4F2BD13AE900C2DC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B33D73B2BDAA47100BA2402 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B7CA36B2BD1E81E00C1978B /* LoginVC.swift */,
+				6B7CA36D2BD1E82D00C1978B /* SignupVC.swift */,
+				6B7CA36F2BD1E83B00C1978B /* WallletVC.swift */,
+				6B7CA3712BD1F5F000C1978B /* TopUpVC.swift */,
+				6BD548A52BD4274D00FE6867 /* DepositDetailVC.swift */,
+				6B7CA3732BD1F61200C1978B /* WithdrawVC.swift */,
+				6BEDAFDA2BD6AD3A007DCE01 /* WithdrawDetailsVC.swift */,
+				6B0CFD172BD7C59A00407A68 /* HomeVC.swift */,
+				6B0CFD192BD7CBFA00407A68 /* AcountVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6B33D73C2BDAA4B800BA2402 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BA95B5B2BD13AE900C2DC88 /* Main.storyboard */,
+				6BA95B632BD13AEB00C2DC88 /* LaunchScreen.storyboard */,
+				6BA95B612BD13AEB00C2DC88 /* Assets.xcassets */,
+				6BD548A32BD2ED3B00FE6867 /* OperationTableViewCell.swift */,
+				6B7CA37B2BD1FE8100C1978B /* PaymentTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B33D73D2BDAA4FC00BA2402 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BD548A12BD2EC9500FE6867 /* recentActivityCell.swift */,
+				6B7CA3792BD1F9DF00C1978B /* PaymentCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BA95B492BD13AE900C2DC88 = {
+			isa = PBXGroup;
+			children = (
+				6B9091B12C3B96F500A7CB44 /* Settings.bundle */,
+				6BA95B542BD13AE900C2DC88 /* Me-True-Pay */,
+				6BA95B532BD13AE900C2DC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA95B532BD13AE900C2DC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA95B522BD13AE900C2DC88 /* Me-True-Pay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA95B542BD13AE900C2DC88 /* Me-True-Pay */ = {
+			isa = PBXGroup;
+			children = (
+				6B33D73D2BDAA4FC00BA2402 /* Models */,
+				6B33D73C2BDAA4B800BA2402 /* Views */,
+				6B33D73B2BDAA47100BA2402 /* View Controllers */,
+				6BA95B552BD13AE900C2DC88 /* AppDelegate.swift */,
+				6B6B19B02BD81586004890D9 /* GoogleService-Info.plist */,
+				6BA95B572BD13AE900C2DC88 /* SceneDelegate.swift */,
+				6BA95B592BD13AE900C2DC88 /* ViewController.swift */,
+				6B7CA37D2BD20A7E00C1978B /* BlurredLabel.swift */,
+				6BA95B662BD13AEB00C2DC88 /* Info.plist */,
+			);
+			path = "Me-True-Pay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BA95B512BD13AE900C2DC88 /* Me-True-Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA95B692BD13AEB00C2DC88 /* Build configuration list for PBXNativeTarget "Me-True-Pay" */;
+			buildPhases = (
+				6BA95B4E2BD13AE900C2DC88 /* Sources */,
+				6BA95B4F2BD13AE900C2DC88 /* Frameworks */,
+				6BA95B502BD13AE900C2DC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Me-True-Pay";
+			packageProductDependencies = (
+			);
+			productName = "Me-True-Pay";
+			productReference = 6BA95B522BD13AE900C2DC88 /* Me-True-Pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BA95B4A2BD13AE900C2DC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6BA95B512BD13AE900C2DC88 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6BA95B4D2BD13AE900C2DC88 /* Build configuration list for PBXProject "Me-True-Pay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BA95B492BD13AE900C2DC88;
+			packageReferences = (
+			);
+			productRefGroup = 6BA95B532BD13AE900C2DC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA95B512BD13AE900C2DC88 /* Me-True-Pay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BA95B502BD13AE900C2DC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA95B652BD13AEB00C2DC88 /* LaunchScreen.storyboard in Resources */,
+				6B6B19B12BD81587004890D9 /* GoogleService-Info.plist in Resources */,
+				6B9091B22C3B96F500A7CB44 /* Settings.bundle in Resources */,
+				6BA95B622BD13AEB00C2DC88 /* Assets.xcassets in Resources */,
+				6BA95B5D2BD13AE900C2DC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA95B4E2BD13AE900C2DC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7CA37A2BD1F9DF00C1978B /* PaymentCell.swift in Sources */,
+				6B7CA37C2BD1FE8100C1978B /* PaymentTableViewCell.swift in Sources */,
+				6B0CFD1A2BD7CBFA00407A68 /* AcountVC.swift in Sources */,
+				6BD548A22BD2EC9500FE6867 /* recentActivityCell.swift in Sources */,
+				6BD548A42BD2ED3B00FE6867 /* OperationTableViewCell.swift in Sources */,
+				6B7CA36E2BD1E82D00C1978B /* SignupVC.swift in Sources */,
+				6B0CFD182BD7C59A00407A68 /* HomeVC.swift in Sources */,
+				6B7CA3722BD1F5F000C1978B /* TopUpVC.swift in Sources */,
+				6BA95B5A2BD13AE900C2DC88 /* ViewController.swift in Sources */,
+				6B7CA3702BD1E83B00C1978B /* WallletVC.swift in Sources */,
+				6BD548A62BD4274D00FE6867 /* DepositDetailVC.swift in Sources */,
+				6BA95B562BD13AE900C2DC88 /* AppDelegate.swift in Sources */,
+				6BEDAFDB2BD6AD3A007DCE01 /* WithdrawDetailsVC.swift in Sources */,
+				6B7CA3742BD1F61200C1978B /* WithdrawVC.swift in Sources */,
+				6B7CA37E2BD20A7E00C1978B /* BlurredLabel.swift in Sources */,
+				6BA95B582BD13AE900C2DC88 /* SceneDelegate.swift in Sources */,
+				6B7CA36C2BD1E81E00C1978B /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BA95B5B2BD13AE900C2DC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA95B5C2BD13AE900C2DC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BA95B632BD13AEB00C2DC88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA95B642BD13AEB00C2DC88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BA95B672BD13AEB00C2DC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BA95B682BD13AEB00C2DC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BA95B6A2BD13AEB00C2DC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 738A487SP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Me-True-Pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Immortal.Me-True-Pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BA95B6B2BD13AEB00C2DC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 738A487SP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Me-True-Pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Immortal.Me-True-Pay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BA95B4D2BD13AE900C2DC88 /* Build configuration list for PBXProject "Me-True-Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA95B672BD13AEB00C2DC88 /* Debug */,
+				6BA95B682BD13AEB00C2DC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA95B692BD13AEB00C2DC88 /* Build configuration list for PBXNativeTarget "Me-True-Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA95B6A2BD13AEB00C2DC88 /* Debug */,
+				6BA95B6B2BD13AEB00C2DC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BA95B4A2BD13AE900C2DC88 /* Project object */;
+}
